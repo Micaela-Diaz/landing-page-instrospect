@@ -1,0 +1,104 @@
+.banner {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.banner-title {
+    padding-left: 50px;
+}
+
+.banner-title h1 {
+    line-height: 3.2rem;
+}
+
+.main-info-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    padding-left: 40px;
+    padding-bottom: 70px;
+}
+
+.main-info-container h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e5474b;
+    padding: 40px 10px;
+    margin-bottom: 0;
+}
+
+.info-text {
+    width: 670px;
+    font-size: 1.4rem;
+    color: #111111;
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+.article-1 .article-2 , h3 {
+    font-size: 1.4rem;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.article-1 .article-2 , img{
+    width: 670px;
+    height: 310px;
+    padding: 50px;
+}
+
+.article-description {
+    padding: 0 50px 50px 50px;
+    padding-top: 0;
+}
+
+.icons-main-container {
+    padding: 50px;
+}
+
+.icons-container span {
+    font-size: 2.6rem;
+}
+
+.icons-container h4 {
+    font-size: 1.3rem;
+}
+
+.icons-text {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.contact-container {
+    padding: 50px;
+}
+
+.contact-container h3 {
+    font-size: 1.8rem;
+}
+
+.contact-container  p {
+    font-size: 1.3rem;
+}
+
+#name , #email {
+    width: 400px;
+}
+
+textarea {
+    width: 650px;
+}
+
+footer {
+    font-size: 1rem;
+}

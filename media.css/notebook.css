@@ -1,0 +1,66 @@
+.banner {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.banner-title h1 {
+    line-height: 3rem;
+    width: 800px;
+}
+
+.main-info-container {
+    padding: 50px 40px;
+    padding-bottom: 90px;
+}
+
+.main-info-container h2 {
+    font-size: 2rem;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.info-text {
+    width: 900px;
+    font-size: 1.4rem;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+
+}
+
+.article-1 .article-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-1 .article-2 , img{
+    width: 400px;
+    height: 190px;
+}
+
+.icons-main-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 80px;
+}
+
